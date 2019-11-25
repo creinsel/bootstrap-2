@@ -8,3 +8,9 @@
     margin-top:10px;
     margin-left:10px;
 }
+
+.flexing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
