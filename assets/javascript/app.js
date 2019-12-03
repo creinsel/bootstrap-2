@@ -31,3 +31,15 @@ $(".resumeLink").on("click", function(event){
     $(".contact").hide();
     $(".resume").show();
 })
+let arr=[1,3,4,4,5,6]
+function dupNum(x){
+    for (let i = 0; i < arr.length; i++) {
+            if(x===arr[i]){
+            arr.remove(x)
+        }
+        
+    }
+   return arr;
+}
+console.log("***")
+console.log(dupNum(arr))
