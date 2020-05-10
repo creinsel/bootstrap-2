@@ -30,4 +30,7 @@ body{
     justify-content:space-around;
 }
 
+.circle{
+    border-radius: 50%;
+}
 
